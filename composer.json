@@ -78,10 +78,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "drupal/group_permissions": {
-                "Fix 500 error": "https://git.drupalcode.org/project/group_permissions/-/merge_requests/3.diff",
-                "Apply latest patch": "https://git.drupalcode.org/project/group_permissions/-/commit/27055084e6c680b5b3389415de90ff56d75f6fee.diff"
-            }
         }
     }
 }
