@@ -62,15 +62,15 @@
     "extra": {
         "drupal-scaffold": {
             "locations": {
-                "web-root": "public_html/"
+                "web-root": "html/"
             }
         },
         "installer-paths": {
-            "public_html/core": ["type:drupal-core"],
-            "public_html/libraries/{$name}": ["type:drupal-library"],
-            "public_html/modules/contrib/{$name}": ["type:drupal-module"],
-            "public_html/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "public_html/themes/contrib/{$name}": ["type:drupal-theme"],
+            "html/core": ["type:drupal-core"],
+            "html/libraries/{$name}": ["type:drupal-library"],
+            "html/modules/contrib/{$name}": ["type:drupal-module"],
+            "html/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "html/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
         },
         "composer-exit-on-patch-failure": true,
